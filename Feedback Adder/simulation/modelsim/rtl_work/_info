@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/evelinova/Desktop/internship_file_2_exc/simulation/modelsim
+vfeedback
+Z1 !s110 1608648549
+!i10b 1
+!s100 d`@Ogzo9Im>6C=BW=A;;N0
+IWjcg_fCUJFa58g@f<<0dh1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1608642622
+8/home/evelinova/Desktop/internship_file_2_exc/feedback.v
+F/home/evelinova/Desktop/internship_file_2_exc/feedback.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1608648548.000000
+!s107 /home/evelinova/Desktop/internship_file_2_exc/feedback.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/evelinova/Desktop/internship_file_2_exc|/home/evelinova/Desktop/internship_file_2_exc/feedback.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+/home/evelinova/Desktop/internship_file_2_exc
+Z6 tCvgOpt 0
+vtest
+R1
+!i10b 1
+!s100 Vm[`W95VSV8i`7U[9kNJK1
+I=dIAAeYHRD2hj69[nN]aI1
+R2
+R0
+w1608648501
+8/home/evelinova/Desktop/internship_file_2_exc/test.v
+F/home/evelinova/Desktop/internship_file_2_exc/test.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1608648549.000000
+!s107 /home/evelinova/Desktop/internship_file_2_exc/test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/evelinova/Desktop/internship_file_2_exc|/home/evelinova/Desktop/internship_file_2_exc/test.v|
+!i113 1
+R4
+R5
+R6

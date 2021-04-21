@@ -1,0 +1,26 @@
+module test ();
+
+reg register, a;
+wire din, dout, clk, rst;
+
+feedback test (.register(register),
+					.a(a),
+					.din(din),
+					.dout(dout),
+					.clk(clk),
+					.rst(rst));
+					
+initial
+begin
+	register = 1;
+	
+	
+	#100;
+	register = 0;
+	
+	#50;
+	$finish;
+	
+	end
+	endmodule
+	
