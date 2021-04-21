@@ -1,0 +1,69 @@
+timestamp=1619015776500
+
+[~A]
+LastVerilogToplevel=LogicUnit_tb
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*1592*3047
+
+[~MFT]
+0=9|0work.mgf|3047|0
+1=7|1work.mgf|8119|0
+3=14|3work.mgf|6980|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|c73a565f2ade592f8ac1c68f484c92169cdef5d6153b0e692d5ff6ca1a76d30e
+
+[LogicUnit]
+A/LogicUnit=22|../design.sv|4|1*6382
+BinL64/LogicUnit=3*3700
+R=../design.sv|4
+SLP=3*4861
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|bdeda56d14b506a81e7f441b2e929da2359fb6f46c3af9659d7e6da92c666cb4b9abc97e335a24b2f4e86ebc8f85a967
+
+[LogicUnit_tb]
+A/LogicUnit_tb=22|../testbench.sv|1|1*8119
+BinL64/LogicUnit_tb=3*5243
+R=../testbench.sv|1
+SLP=3*6980
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|a1ecafdadb4c404ed6d17afbfca581c1bf7d52f334356af1b3bcf3354f641edb8cf0a33bc20a5d3ef762671e2c2fbb38
+
+[N_adder]
+A/N_adder=22|../n_adder.v|4|1*3676
+BinL64/N_adder=3*1957
+R=../n_adder.v|4
+SLP=3*3246
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|bd8de07fca47a5db5059c8b1243651a226527262ddaa47cb266f3a3c4d9b973af381e4640ab58c3d97511156314ad7bb
+
+[full_adder]
+A/full_adder=22|../full_adder.v|5|1*1360
+BinL64/full_adder=3*691
+R=../full_adder.v|5
+SLP=3*1121
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|b6bc4c72c6b4732d30366d04e0b9d81ca93b35da59acef6f28d70118359e933e4f3e591a8dac1619af862f9d9719ad54
+
+[half_adder]
+A/half_adder=22|../half_adder.v|4|1*390
+BinL64/half_adder=3*174
+R=../half_adder.v|4
+SLP=3*502
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|9d478890ab412e42d6b75255d560236f41ab0ed49771ee80612b3666c997a9c24f3e591a8dac1619af862f9d9719ad54
+
+[mux2_1]
+A/mux2_1=22|../mux2_1.v|2|1*2579
+BinL64/mux2_1=3*1346
+R=../mux2_1.v|2
+SLP=3*1786
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|33f2a1472abcf26a712201dbffe650f04d9542992803ed81f3dce440be6e61ae
+
+[~U]
+$root=12|0*0|
+LogicUnit=12|0*1104|
+LogicUnit_tb=12|0*1376||0x10
+N_adder=12|0*858|
+full_adder=12|0*411|
+half_adder=12|0*198|
+mux2_1=12|0*644|

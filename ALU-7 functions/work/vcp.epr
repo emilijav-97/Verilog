@@ -1,0 +1,6 @@
+"../testbench.sv"	2
+"../design.sv"	2
+"../n_adder.v"	2
+"../full_adder.v"	1
+"../mux2_1.v"	1
+"../half_adder.v"	1

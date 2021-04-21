@@ -1,0 +1,578 @@
+$date
+Wed Apr 21 10:37:22 2021
+$end
+$version
+Riviera-PRO Version 2020.04.130.7729
+$end
+$timescale
+1 ns
+$end
+
+$scope module LogicUnit_tb $end
+$var wire 8 ! result [7:0] $end
+$var reg 8 " A [7:0] $end
+$var reg 8 # B [7:0] $end
+$var reg 3 $ alu_control [2:0] $end
+$var integer 32 % i $end
+$var parameter 32 & N [31:0] $end
+
+$scope module uut $end
+$var wire 8 ' A [7:0] $end
+$var wire 8 ( B [7:0] $end
+$var wire 1 ) sum [7] $end
+$var wire 1 * sum [6] $end
+$var wire 1 + sum [5] $end
+$var wire 1 , sum [4] $end
+$var wire 1 - sum [3] $end
+$var wire 1 . sum [2] $end
+$var wire 1 / sum [1] $end
+$var wire 1 0 sum [0] $end
+$var wire 2 1 alu_control [1:0] $end
+$var wire 8 ! result [7:0] $end
+$var reg 8 2 result1 [7:0] $end
+$var parameter 32 3 N [31:0] $end
+
+$scope module inst $end
+$var wire 1 4 A [7] $end
+$var wire 1 5 A [6] $end
+$var wire 1 6 A [5] $end
+$var wire 1 7 A [4] $end
+$var wire 1 8 A [3] $end
+$var wire 1 9 A [2] $end
+$var wire 1 : A [1] $end
+$var wire 1 ; A [0] $end
+$var wire 1 < B [7] $end
+$var wire 1 = B [6] $end
+$var wire 1 > B [5] $end
+$var wire 1 ? B [4] $end
+$var wire 1 @ B [3] $end
+$var wire 1 A B [2] $end
+$var wire 1 B B [1] $end
+$var wire 1 C B [0] $end
+$var wire 3 D alu_control [2:0] $end
+$var wire 1 ) sum [7] $end
+$var wire 1 * sum [6] $end
+$var wire 1 + sum [5] $end
+$var wire 1 , sum [4] $end
+$var wire 1 - sum [3] $end
+$var wire 1 . sum [2] $end
+$var wire 1 / sum [1] $end
+$var wire 1 0 sum [0] $end
+$var wire 1 E carry [7] $end
+$var wire 1 F carry [6] $end
+$var wire 1 G carry [5] $end
+$var wire 1 H carry [4] $end
+$var wire 1 I carry [3] $end
+$var wire 1 J carry [2] $end
+$var wire 1 K carry [1] $end
+$var wire 1 L carry [0] $end
+$var wire 1 M carry_out $end
+$var parameter 32 N N [31:0] $end
+
+$scope module ut $end
+$var wire 1 O B $end
+$var wire 3 D alu_control [2:0] $end
+$var wire 1 P B_bar $end
+$var reg 1 Q mux_out $end
+$upscope $end
+
+
+$scope begin generate_N_bit_Adder[0] $end
+$var parameter 32 R i [31:0] $end
+
+$scope begin genblk1 $end
+
+$scope module inst_1 $end
+$var wire 1 ; A $end
+$var wire 1 C B $end
+$var wire 1 0 sum $end
+$var wire 1 L carry_out $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope begin generate_N_bit_Adder[1] $end
+$var parameter 32 S i [31:0] $end
+
+$scope begin genblk1 $end
+
+$scope module inst_2 $end
+$var wire 1 ; A $end
+$var wire 1 C B $end
+$var wire 1 L carry_in $end
+$var wire 1 / sum $end
+$var wire 1 K carry_out $end
+
+$scope module u1 $end
+$var wire 1 ; A $end
+$var wire 1 C B $end
+$var wire 1 / sum $end
+$var wire 1 K carry_out $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope begin generate_N_bit_Adder[2] $end
+$var parameter 32 T i [31:0] $end
+
+$scope begin genblk1 $end
+
+$scope module inst_2 $end
+$var wire 1 ; A $end
+$var wire 1 C B $end
+$var wire 1 K carry_in $end
+$var wire 1 . sum $end
+$var wire 1 J carry_out $end
+
+$scope module u1 $end
+$var wire 1 ; A $end
+$var wire 1 C B $end
+$var wire 1 . sum $end
+$var wire 1 J carry_out $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope begin generate_N_bit_Adder[3] $end
+$var parameter 32 U i [31:0] $end
+
+$scope begin genblk1 $end
+
+$scope module inst_2 $end
+$var wire 1 ; A $end
+$var wire 1 C B $end
+$var wire 1 J carry_in $end
+$var wire 1 - sum $end
+$var wire 1 I carry_out $end
+
+$scope module u1 $end
+$var wire 1 ; A $end
+$var wire 1 C B $end
+$var wire 1 - sum $end
+$var wire 1 I carry_out $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope begin generate_N_bit_Adder[4] $end
+$var parameter 32 V i [31:0] $end
+
+$scope begin genblk1 $end
+
+$scope module inst_2 $end
+$var wire 1 ; A $end
+$var wire 1 C B $end
+$var wire 1 I carry_in $end
+$var wire 1 , sum $end
+$var wire 1 H carry_out $end
+
+$scope module u1 $end
+$var wire 1 ; A $end
+$var wire 1 C B $end
+$var wire 1 , sum $end
+$var wire 1 H carry_out $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope begin generate_N_bit_Adder[5] $end
+$var parameter 32 W i [31:0] $end
+
+$scope begin genblk1 $end
+
+$scope module inst_2 $end
+$var wire 1 ; A $end
+$var wire 1 C B $end
+$var wire 1 H carry_in $end
+$var wire 1 + sum $end
+$var wire 1 G carry_out $end
+
+$scope module u1 $end
+$var wire 1 ; A $end
+$var wire 1 C B $end
+$var wire 1 + sum $end
+$var wire 1 G carry_out $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope begin generate_N_bit_Adder[6] $end
+$var parameter 32 X i [31:0] $end
+
+$scope begin genblk1 $end
+
+$scope module inst_2 $end
+$var wire 1 ; A $end
+$var wire 1 C B $end
+$var wire 1 G carry_in $end
+$var wire 1 * sum $end
+$var wire 1 F carry_out $end
+
+$scope module u1 $end
+$var wire 1 ; A $end
+$var wire 1 C B $end
+$var wire 1 * sum $end
+$var wire 1 F carry_out $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope begin generate_N_bit_Adder[7] $end
+$var parameter 32 Y i [31:0] $end
+
+$scope begin genblk1 $end
+
+$scope module inst_2 $end
+$var wire 1 ; A $end
+$var wire 1 C B $end
+$var wire 1 F carry_in $end
+$var wire 1 ) sum $end
+$var wire 1 E carry_out $end
+
+$scope module u1 $end
+$var wire 1 ; A $end
+$var wire 1 C B $end
+$var wire 1 ) sum $end
+$var wire 1 E carry_out $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b0 !
+b0 "
+b0 #
+b0 $
+b0 %
+b1000 &
+b0 '
+b0 (
+x)
+x*
+x+
+x,
+x-
+x.
+x/
+x0
+b0 1
+b0 2
+b1000 3
+z4
+z5
+z6
+z7
+z8
+z9
+z:
+z;
+z<
+z=
+z>
+z?
+z@
+zA
+zB
+xC
+bz00 D
+xE
+xF
+xG
+xH
+xI
+xJ
+xK
+xL
+xM
+b1000 N
+zO
+xP
+xQ
+b0 R
+b1 S
+b10 T
+b11 U
+b100 V
+b101 W
+b110 X
+b111 Y
+$end
+#100
+b11110110 "
+b1010 #
+b1010 (
+b11110110 '
+b10 2
+b10 !
+#200
+b1111 "
+b100010 #
+b100010 (
+b1111 '
+#300
+b100001 "
+b110111 #
+b110111 (
+b100001 '
+b100001 2
+b100001 !
+#400
+b10 "
+b1 #
+b1 %
+b1 $
+b1 1
+bz01 D
+b1 (
+b10 '
+b11 2
+b11 !
+#500
+b11110110 "
+b1010 #
+b1010 (
+b11110110 '
+b11111110 2
+b11111110 !
+#600
+b1111 "
+b100010 #
+b100010 (
+b1111 '
+b101111 2
+b101111 !
+#700
+b100001 "
+b110111 #
+b110111 (
+b100001 '
+b110111 2
+b110111 !
+#800
+b10 "
+b1 #
+b10 %
+b10 $
+b10 1
+bz10 D
+b1 (
+b10 '
+b11 2
+b11 !
+#900
+b11110110 "
+b1010 #
+b1010 (
+b11110110 '
+b0 2
+b0 !
+#1000
+b1111 "
+b100010 #
+b100010 (
+b1111 '
+b110001 2
+b110001 !
+#1100
+b100001 "
+b110111 #
+b110111 (
+b100001 '
+b1011000 2
+b1011000 !
+#1200
+b10 "
+b1 #
+b11 %
+b11 $
+b11 1
+bz11 D
+b1 (
+b10 '
+bz 2
+bz !
+#1300
+b11110110 "
+b1010 #
+b1010 (
+b11110110 '
+#1400
+b1111 "
+b100010 #
+b100010 (
+b1111 '
+#1500
+b100001 "
+b110111 #
+b110111 (
+b100001 '
+#1600
+b10 "
+b1 #
+b100 %
+b100 $
+b0 1
+bz00 D
+b1 (
+b10 '
+b0 2
+b0 !
+#1700
+b11110110 "
+b1010 #
+b1010 (
+b11110110 '
+b10 2
+b10 !
+#1800
+b1111 "
+b100010 #
+b100010 (
+b1111 '
+#1900
+b100001 "
+b110111 #
+b110111 (
+b100001 '
+b100001 2
+b100001 !
+#2000
+b10 "
+b1 #
+b101 %
+b101 $
+b1 1
+bz01 D
+b1 (
+b10 '
+b11 2
+b11 !
+#2100
+b11110110 "
+b1010 #
+b1010 (
+b11110110 '
+b11111110 2
+b11111110 !
+#2200
+b1111 "
+b100010 #
+b100010 (
+b1111 '
+b101111 2
+b101111 !
+#2300
+b100001 "
+b110111 #
+b110111 (
+b100001 '
+b110111 2
+b110111 !
+#2400
+b10 "
+b1 #
+b110 %
+b110 $
+b10 1
+bz10 D
+b1 (
+b10 '
+b11 2
+b11 !
+#2500
+b11110110 "
+b1010 #
+b1010 (
+b11110110 '
+b0 2
+b0 !
+#2600
+b1111 "
+b100010 #
+b100010 (
+b1111 '
+b110001 2
+b110001 !
+#2700
+b100001 "
+b110111 #
+b110111 (
+b100001 '
+b1011000 2
+b1011000 !
+#2800
+b10 "
+b1 #
+b111 %
+b111 $
+b11 1
+bz11 D
+b1 (
+b10 '
+bz 2
+bz !
+#2900
+b11110110 "
+b1010 #
+b1010 (
+b11110110 '
+#3000
+b1111 "
+b100010 #
+b100010 (
+b1111 '
+#3100
+b100001 "
+b110111 #
+b110111 (
+b100001 '
+#3200
+b10 "
+b1 #
+b1000 %
+b1 (
+b10 '

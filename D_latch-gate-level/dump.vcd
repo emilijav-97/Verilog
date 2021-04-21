@@ -1,0 +1,70 @@
+$date
+	Wed Apr 21 14:37:51 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module D_latch_gate_tb $end
+$var wire 1 ! Q $end
+$var wire 1 " Qbar $end
+$var reg 1 # C $end
+$var reg 1 $ D $end
+$scope module uut $end
+$var wire 1 % C $end
+$var wire 1 & D $end
+$var wire 1 ' Dbar $end
+$var wire 1 ! Q $end
+$var wire 1 " Qbar $end
+$var wire 1 ( x $end
+$var wire 1 ) y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1)
+0(
+0'
+1&
+1%
+1$
+1#
+0"
+1!
+$end
+#100
+1(
+0#
+0%
+#300
+0(
+1#
+1%
+#400
+0!
+1"
+0)
+1'
+1(
+0$
+0&
+#500
+1)
+0#
+0%
+#700
+0)
+1#
+1%
+#800
+0"
+1)
+1!
+0'
+0(
+1$
+1&
+#900

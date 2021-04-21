@@ -1,0 +1,28 @@
+Riviera-PRO 2020.04.130.7729(Linux64) 2021-04-21 10:36:17
+
+Elaboration top modules:
+Verilog Module                LogicUnit_tb
+
+
+---------------------------------------------------------------------------------------------
+Verilog Module          | Library | Info | Compiler Version      | Compilation Options
+---------------------------------------------------------------------------------------------
+LogicUnit_tb            | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+LogicUnit               | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+N_adder                 | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+mux2_1                  | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+half_adder              | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+full_adder              | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Library                 | Comment
+---------------------------------------------------------------------------------------------
+work                    | None
+---------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access+r
+
+
+The performance of simulation is reduced. Version EDU Edition

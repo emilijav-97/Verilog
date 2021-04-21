@@ -1,0 +1,45 @@
+timestamp=1619016194385
+
+[~A]
+LastVerilogToplevel=paritycheck_tb
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*822*1652
+
+[~MFT]
+0=6|0work.mgf|1652|0
+1=4|1work.mgf|2762|0
+3=8|3work.mgf|2210|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2020.04.130 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c73a565f2ade592f8ac1c68f484c9216e9495abf485b565d8d83a2fd9f0dede5
+
+[dff]
+A/dff=22|../dff.v|3|1*390
+BinL64/dff=3*174
+R=../dff.v|3
+SLP=3*496
+Version=2020.04.130 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|6a4f0a87167aa7fed99534ff2dffab1b7e63353956c4ddf074716fe17dd60d28
+
+[paritycheck_mealy]
+A/paritycheck_mealy=22|../design.sv|5|1*1464
+BinL64/paritycheck_mealy=3*696
+R=../design.sv|5
+SLP=3*946
+Version=2020.04.130 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|9127937641256ee111feb84e69ede5427c360ffeab737c62c5c9fca2f5e4971be53602ffa57b8e515b981180aee1aa33
+
+[paritycheck_tb]
+A/paritycheck_tb=22|../testbench.sv|8|1*2762
+BinL64/paritycheck_tb=3*1117
+R=../testbench.sv|8
+SLP=3*2210
+Version=2020.04.130 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|d96b52dd835c8856cacd82f99f77e0068f046ce5812b49ee5cc329882d70a27abe2b6c0b865344102db74913e0805bae
+
+[~U]
+$root=12|0*0|
+dff=12|0*198|
+paritycheck_mealy=12|0*396|
+paritycheck_tb=12|0*629||0x10
