@@ -1,7 +1,7 @@
 module state_machine ( input logic clk,
-							  input logic rst,
-							  input logic X,
-							  output logic Y
+		       input logic rst,
+		       input logic X,
+		       output logic Y
 							  ); 
 							  
 	typedef enum logic [2:0] {A, B, C, D, E} state;
