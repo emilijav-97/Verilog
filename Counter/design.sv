@@ -1,6 +1,6 @@
 module up_counter ( output reg [7:0] out,
-  					input enable, clk, rst,
- 					output valid1
+  		    input enable, clk, rst,
+ 		    output valid1
                   );
   
   always @(posedge clk) begin
